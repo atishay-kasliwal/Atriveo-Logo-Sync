@@ -294,7 +294,7 @@ def read_usage_ledger(path: Path) -> Dict[str, Any]:
     }
 
 
-def get_month_class_a_writes(ledger: Dict[str, Any], month: str) -> int:
+def get_month_counter(ledger: Dict[str, Any], month: str, counter_key: str) -> int:
     months = ledger.get("months")
     if not isinstance(months, dict):
         return 0
@@ -302,13 +302,13 @@ def get_month_class_a_writes(ledger: Dict[str, Any], month: str) -> int:
     if not isinstance(row, dict):
         return 0
     try:
-        value = int(row.get("class_a_writes", 0))
+        value = int(row.get(counter_key, 0))
     except Exception:
         value = 0
     return max(0, value)
 
 
-def set_month_class_a_writes(ledger: Dict[str, Any], month: str, value: int) -> None:
+def set_month_counter(ledger: Dict[str, Any], month: str, counter_key: str, value: int) -> None:
     months = ledger.setdefault("months", {})
     if not isinstance(months, dict):
         ledger["months"] = {}
@@ -316,9 +316,25 @@ def set_month_class_a_writes(ledger: Dict[str, Any], month: str, value: int) -> 
     current = months.get(month)
     if not isinstance(current, dict):
         current = {}
-    current["class_a_writes"] = int(max(0, value))
+    current[counter_key] = int(max(0, value))
     current["updated_at"] = iso_now()
     months[month] = current
+
+
+def get_month_class_a_writes(ledger: Dict[str, Any], month: str) -> int:
+    return get_month_counter(ledger, month, "class_a_writes")
+
+
+def set_month_class_a_writes(ledger: Dict[str, Any], month: str, value: int) -> None:
+    set_month_counter(ledger, month, "class_a_writes", value)
+
+
+def get_month_class_b_ops(ledger: Dict[str, Any], month: str) -> int:
+    return get_month_counter(ledger, month, "class_b_ops")
+
+
+def set_month_class_b_ops(ledger: Dict[str, Any], month: str, value: int) -> None:
+    set_month_counter(ledger, month, "class_b_ops", value)
 
 
 def parse_args(argv: Optional[Iterable[str]] = None) -> argparse.Namespace:
@@ -366,8 +382,10 @@ async def run(args: argparse.Namespace) -> int:
     usage_ledger = read_usage_ledger(ledger_path)
     active_month = month_key_utc()
     monthly_class_a_writes_used = get_month_class_a_writes(usage_ledger, active_month)
+    monthly_class_b_ops_used = get_month_class_b_ops(usage_ledger, active_month)
     max_storage_bytes = parse_positive_int_env("SAFE_MAX_STORAGE_BYTES", 9_000_000_000)
     max_class_a_month = parse_positive_int_env("SAFE_MAX_CLASS_A_MONTH", 900_000)
+    max_class_b_month = parse_positive_int_env("SAFE_MAX_CLASS_B_MONTH", 9_000_000)
 
     current_storage_bytes = 0
     for item in existing_map.values():
@@ -396,6 +414,7 @@ async def run(args: argparse.Namespace) -> int:
     budget_skipped = 0
     storage_budget_hit = False
     class_a_budget_hit = False
+    class_b_budget_hit = False
 
     for target in targets:
         key = f"{target.company}|{target.domain}"
@@ -434,10 +453,17 @@ async def run(args: argparse.Namespace) -> int:
             object_key = str(existing.get("object_key") or object_key)
         elif not args.dry_run:
             projected_class_a = monthly_class_a_writes_used + 1
+            # Current sync path only performs put_object writes to R2 (Class A).
+            projected_class_b = monthly_class_b_ops_used
             projected_storage = current_storage_bytes - max(0, existing_byte_size) + len(payload)
 
             if projected_class_a > max_class_a_month:
                 class_a_budget_hit = True
+                budget_skipped += 1
+                continue
+
+            if projected_class_b > max_class_b_month:
+                class_b_budget_hit = True
                 budget_skipped += 1
                 continue
 
@@ -462,6 +488,7 @@ async def run(args: argparse.Namespace) -> int:
             )
             uploaded += 1
             monthly_class_a_writes_used = projected_class_a
+            monthly_class_b_ops_used = projected_class_b
             current_storage_bytes = projected_storage
 
         updated_entries[key] = {
@@ -490,6 +517,7 @@ async def run(args: argparse.Namespace) -> int:
 
     if not args.dry_run:
         set_month_class_a_writes(usage_ledger, active_month, monthly_class_a_writes_used)
+        set_month_class_b_ops(usage_ledger, active_month, monthly_class_b_ops_used)
 
     report = {
         "started_at": started_at,
@@ -508,11 +536,14 @@ async def run(args: argparse.Namespace) -> int:
         "budget_guard": {
             "max_storage_bytes": max_storage_bytes,
             "max_class_a_month": max_class_a_month,
+            "max_class_b_month": max_class_b_month,
             "active_month": active_month,
             "month_class_a_writes_used": monthly_class_a_writes_used,
+            "month_class_b_ops_used": monthly_class_b_ops_used,
             "estimated_storage_bytes": final_storage_bytes,
             "storage_budget_hit": storage_budget_hit,
             "class_a_budget_hit": class_a_budget_hit,
+            "class_b_budget_hit": class_b_budget_hit,
         },
         "failed": len(failures),
         "failures": failures,

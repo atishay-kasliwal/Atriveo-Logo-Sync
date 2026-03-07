@@ -41,6 +41,7 @@ Optional:
 - `SYNC_ENABLED` (`true`/`false`, hard kill switch for workflow; default behavior is enabled)
 - `SAFE_MAX_STORAGE_BYTES` (default `9000000000`, stops new uploads when projected manifest storage exceeds this)
 - `SAFE_MAX_CLASS_A_MONTH` (default `900000`, stops new uploads when monthly write counter exceeds this)
+- `SAFE_MAX_CLASS_B_MONTH` (default `9000000`, tracked and reported for monthly Class B budget visibility)
 
 ## Local usage
 
@@ -74,4 +75,5 @@ python scripts/sync_logos.py --source auto --dry-run
 - Default resync window is 30 days (skip recent entries unless `--full-sync`).
 - The script exits non-zero when failures occur; workflow still uploads artifacts.
 - Usage ledger is stored in `output/usage-ledger.json` and committed by workflow.
+- Current sync implementation uploads with `put_object` (Class A writes). Class B counters are included for guard/report continuity.
 - Guardrails stop *new sync uploads* before limits, but Cloudflare billing itself does not provide a strict global hard-stop for all R2 reads/writes.

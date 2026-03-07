@@ -58,6 +58,7 @@ jobs:
           ATRIVEO_API_TOKEN: ${{ secrets.ATRIVEO_API_TOKEN }}
           SAFE_MAX_STORAGE_BYTES: ${{ secrets.SAFE_MAX_STORAGE_BYTES }}
           SAFE_MAX_CLASS_A_MONTH: ${{ secrets.SAFE_MAX_CLASS_A_MONTH }}
+          SAFE_MAX_CLASS_B_MONTH: ${{ secrets.SAFE_MAX_CLASS_B_MONTH }}
         run: |
           if [ "${SYNC_ENABLED:-true}" != "true" ]; then
             echo "SYNC_ENABLED is not true. Skipping sync."

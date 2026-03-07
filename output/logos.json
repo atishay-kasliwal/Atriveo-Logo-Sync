@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "company": "Amazon",
+    "domain": "amazon.com",
+    "object_key": "logos/amazon/amazon.com/f90b4d1c973e1f0a.png",
+    "content_type": "image/png",
+    "sha256_hex": "f90b4d1c973e1f0ae813a45a4bdb7cec6975d8b9fb9848d1ca1e076fc832da21",
+    "byte_size": 85973,
+    "source": "logohunter",
+    "synced_at": "2026-03-07T20:14:58.463376+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Google",
+    "domain": "google.com",
+    "object_key": "logos/google/google.com/86943113013e044d.png",
+    "content_type": "image/png",
+    "sha256_hex": "86943113013e044d9166d2b8a9961e8425c58fb3186bc148f4eff61df8f63371",
+    "byte_size": 141537,
+    "source": "logohunter",
+    "synced_at": "2026-03-07T20:15:00.368058+00:00",
+    "public_url": null
+  }
+]

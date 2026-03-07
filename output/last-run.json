@@ -1,3 +1,29 @@
 {
-  "status": "not-run-yet"
+  "started_at": "2026-03-07T20:14:56.817112+00:00",
+  "finished_at": "2026-03-07T20:15:00.368120+00:00",
+  "source": "csv",
+  "dry_run": false,
+  "full_sync": false,
+  "resync_days": 30,
+  "targets_total": 2,
+  "processed": 2,
+  "skipped_recent": 0,
+  "fetched": 2,
+  "uploaded": 2,
+  "unchanged": 0,
+  "budget_skipped": 0,
+  "budget_guard": {
+    "max_storage_bytes": 5000000000,
+    "max_class_a_month": 100000,
+    "max_class_b_month": 3000000,
+    "active_month": "2026-03",
+    "month_class_a_writes_used": 2,
+    "month_class_b_ops_used": 0,
+    "estimated_storage_bytes": 227510,
+    "storage_budget_hit": false,
+    "class_a_budget_hit": false,
+    "class_b_budget_hit": false
+  },
+  "failed": 0,
+  "failures": []
 }

@@ -1,0 +1,116 @@
+name: Logo Sync
+
+on:
+  workflow_dispatch:
+    inputs:
+      full_sync:
+        description: "Run full sync (ignore resync age)"
+        type: boolean
+        required: true
+        default: false
+      source:
+        description: "Source mode"
+        type: choice
+        options:
+          - auto
+          - csv
+          - atriveo
+        default: auto
+      limit:
+        description: "Optional limit (0 = all)"
+        type: number
+        required: true
+        default: 0
+  schedule:
+    - cron: "25 4 * * *"
+  repository_dispatch:
+    types: [logo_sync]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run logo sync
+        env:
+          SYNC_ENABLED: ${{ secrets.SYNC_ENABLED }}
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          R2_PUBLIC_BASE_URL: ${{ secrets.R2_PUBLIC_BASE_URL }}
+          ATRIVEO_API_URL: ${{ secrets.ATRIVEO_API_URL }}
+          ATRIVEO_API_TOKEN: ${{ secrets.ATRIVEO_API_TOKEN }}
+          SAFE_MAX_STORAGE_BYTES: ${{ secrets.SAFE_MAX_STORAGE_BYTES }}
+          SAFE_MAX_CLASS_A_MONTH: ${{ secrets.SAFE_MAX_CLASS_A_MONTH }}
+        run: |
+          if [ "${SYNC_ENABLED:-true}" != "true" ]; then
+            echo "SYNC_ENABLED is not true. Skipping sync."
+            exit 0
+          fi
+
+          SOURCE="${{ github.event.inputs.source || 'auto' }}"
+          LIMIT="${{ github.event.inputs.limit || 0 }}"
+          FULL_SYNC="${{ github.event.inputs.full_sync || 'false' }}"
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            SOURCE="auto"
+            LIMIT="0"
+            FULL_SYNC="false"
+          fi
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            SOURCE="auto"
+            LIMIT="0"
+            FULL_SYNC="false"
+          fi
+
+          EXTRA=""
+          if [ "$FULL_SYNC" = "true" ]; then
+            EXTRA="--full-sync"
+          fi
+
+          python scripts/sync_logos.py \
+            --source "$SOURCE" \
+            --limit "$LIMIT" \
+            --source-file data/companies.csv \
+            --output output/logos.json \
+            --report output/last-run.json \
+            --ledger output/usage-ledger.json \
+            $EXTRA
+
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logo-sync-output
+          path: |
+            output/logos.json
+            output/last-run.json
+            output/usage-ledger.json
+
+      - name: Commit manifest updates
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/logos.json output/last-run.json output/usage-ledger.json || true
+          if git diff --cached --quiet; then
+            echo "No manifest changes."
+            exit 0
+          fi
+          git commit -m "chore(sync): update logo manifest"
+          git push

@@ -9,6 +9,7 @@ import json
 import os
 import re
 import sys
+import unicodedata
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -61,6 +62,20 @@ def normalize_domain(raw: str) -> str:
 def safe_slug(raw: str) -> str:
     clean = re.sub(r"[^a-zA-Z0-9._-]+", "-", str(raw or "").strip().lower()).strip("-")
     return clean or "unknown"
+
+
+def sanitize_s3_metadata_value(raw: Any, fallback: str = "na") -> str:
+    """
+    S3/R2 metadata values must be ASCII.
+    Normalize unicode and strip unsupported bytes before upload.
+    """
+    text = str(raw or "").strip()
+    if not text:
+        return fallback
+    text = unicodedata.normalize("NFKD", text)
+    text = text.encode("ascii", "ignore").decode("ascii")
+    text = re.sub(r"[\r\n\t]+", " ", text).strip()
+    return text or fallback
 
 
 def detect_content_type_and_ext(payload: bytes) -> Tuple[str, str]:
@@ -480,10 +495,10 @@ async def run(args: argparse.Namespace) -> int:
                 ContentType=content_type,
                 CacheControl="public, max-age=31536000, immutable",
                 Metadata={
-                    "company": target.company,
-                    "domain": target.domain,
-                    "sha256": sha256_hex,
-                    "source": "logohunter",
+                    "company": sanitize_s3_metadata_value(target.company),
+                    "domain": sanitize_s3_metadata_value(target.domain),
+                    "sha256": sanitize_s3_metadata_value(sha256_hex),
+                    "source": sanitize_s3_metadata_value("logohunter"),
                 },
             )
             uploaded += 1

@@ -1,15 +1,15 @@
 {
-  "started_at": "2026-03-12T05:32:19.403288+00:00",
-  "finished_at": "2026-03-12T05:32:19.488771+00:00",
-  "source": "csv",
+  "started_at": "2026-03-13T05:23:00.818240+00:00",
+  "finished_at": "2026-03-13T05:32:44.620730+00:00",
+  "source": "atriveo",
   "dry_run": false,
   "full_sync": false,
   "resync_days": 30,
-  "targets_total": 2,
-  "processed": 0,
-  "skipped_recent": 2,
-  "fetched": 0,
-  "uploaded": 0,
+  "targets_total": 249,
+  "processed": 249,
+  "skipped_recent": 0,
+  "fetched": 239,
+  "uploaded": 239,
   "unchanged": 0,
   "budget_skipped": 0,
   "budget_guard": {
@@ -17,13 +17,64 @@
     "max_class_a_month": 100000,
     "max_class_b_month": 3000000,
     "active_month": "2026-03",
-    "month_class_a_writes_used": 2,
+    "month_class_a_writes_used": 241,
     "month_class_b_ops_used": 0,
-    "estimated_storage_bytes": 227510,
+    "estimated_storage_bytes": 8882056,
     "storage_budget_hit": false,
     "class_a_budget_hit": false,
     "class_b_budget_hit": false
   },
-  "failed": 0,
-  "failures": []
+  "failed": 10,
+  "failures": [
+    {
+      "company": "Amentum",
+      "domain": "amentumcareers.com",
+      "error": "LogoHunter returned empty payload."
+    },
+    {
+      "company": "Assort Health",
+      "domain": "jobs.ashbyhq.com",
+      "error": "LogoHunter returned empty payload."
+    },
+    {
+      "company": "Bestow",
+      "domain": "jobs.ashbyhq.com",
+      "error": "LogoHunter returned empty payload."
+    },
+    {
+      "company": "CGI",
+      "domain": "clients.njoyn.com",
+      "error": "LogoHunter returned empty payload."
+    },
+    {
+      "company": "Ford",
+      "domain": "apply.ford.com",
+      "error": "LogoHunter returned empty payload."
+    },
+    {
+      "company": "Meta",
+      "domain": "metacareers.com",
+      "error": "LogoHunter returned empty payload."
+    },
+    {
+      "company": "Quora",
+      "domain": "jobs.ashbyhq.com",
+      "error": "LogoHunter returned empty payload."
+    },
+    {
+      "company": "snowflake",
+      "domain": "jobs.ashbyhq.com",
+      "error": "LogoHunter returned empty payload."
+    },
+    {
+      "company": "Stern Security Inc",
+      "domain": "jobs.gusto.com",
+      "error": "LogoHunter returned empty payload."
+    },
+    {
+      "company": "whatnot",
+      "domain": "jobs.ashbyhq.com",
+      "error": "LogoHunter returned empty payload."
+    }
+  ]
 }

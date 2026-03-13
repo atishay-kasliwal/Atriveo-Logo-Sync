@@ -420,6 +420,7 @@ async def run(args: argparse.Namespace) -> int:
 
     updated_entries: Dict[str, Dict[str, Any]] = dict(existing_map)
     failures: List[Dict[str, Any]] = []
+    no_logo_targets: List[Dict[str, Any]] = []
 
     processed = 0
     skipped_recent = 0
@@ -442,14 +443,21 @@ async def run(args: argparse.Namespace) -> int:
 
         try:
             payload = await fetch_logo_bytes(hunter, target.domain)
-            if not payload:
-                raise RuntimeError("LogoHunter returned empty payload.")
         except Exception as exc:
             failures.append(
                 {
                     "company": target.company,
                     "domain": target.domain,
                     "error": str(exc),
+                }
+            )
+            continue
+        if not payload:
+            no_logo_targets.append(
+                {
+                    "company": target.company,
+                    "domain": target.domain,
+                    "error": "LogoHunter returned empty payload.",
                 }
             )
             continue
@@ -560,6 +568,8 @@ async def run(args: argparse.Namespace) -> int:
             "class_a_budget_hit": class_a_budget_hit,
             "class_b_budget_hit": class_b_budget_hit,
         },
+        "no_logo": len(no_logo_targets),
+        "no_logo_targets": no_logo_targets,
         "failed": len(failures),
         "failures": failures,
     }

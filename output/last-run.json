@@ -1,15 +1,15 @@
 {
-  "started_at": "2026-03-13T05:23:00.818240+00:00",
-  "finished_at": "2026-03-13T05:32:44.620730+00:00",
+  "started_at": "2026-03-13T05:37:41.475060+00:00",
+  "finished_at": "2026-03-13T05:37:58.981093+00:00",
   "source": "atriveo",
   "dry_run": false,
   "full_sync": false,
   "resync_days": 30,
   "targets_total": 249,
-  "processed": 249,
-  "skipped_recent": 0,
-  "fetched": 239,
-  "uploaded": 239,
+  "processed": 10,
+  "skipped_recent": 239,
+  "fetched": 0,
+  "uploaded": 0,
   "unchanged": 0,
   "budget_skipped": 0,
   "budget_guard": {
@@ -24,8 +24,8 @@
     "class_a_budget_hit": false,
     "class_b_budget_hit": false
   },
-  "failed": 10,
-  "failures": [
+  "no_logo": 10,
+  "no_logo_targets": [
     {
       "company": "Amentum",
       "domain": "amentumcareers.com",
@@ -76,5 +76,7 @@
       "domain": "jobs.ashbyhq.com",
       "error": "LogoHunter returned empty payload."
     }
-  ]
+  ],
+  "failed": 0,
+  "failures": []
 }

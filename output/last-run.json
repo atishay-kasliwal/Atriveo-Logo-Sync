@@ -1,15 +1,15 @@
 {
-  "started_at": "2026-03-13T05:37:41.475060+00:00",
-  "finished_at": "2026-03-13T05:37:58.981093+00:00",
+  "started_at": "2026-03-14T05:27:37.750329+00:00",
+  "finished_at": "2026-03-14T05:28:52.558608+00:00",
   "source": "atriveo",
   "dry_run": false,
   "full_sync": false,
   "resync_days": 30,
-  "targets_total": 249,
-  "processed": 10,
-  "skipped_recent": 239,
-  "fetched": 0,
-  "uploaded": 0,
+  "targets_total": 271,
+  "processed": 35,
+  "skipped_recent": 236,
+  "fetched": 24,
+  "uploaded": 24,
   "unchanged": 0,
   "budget_skipped": 0,
   "budget_guard": {
@@ -17,14 +17,14 @@
     "max_class_a_month": 100000,
     "max_class_b_month": 3000000,
     "active_month": "2026-03",
-    "month_class_a_writes_used": 241,
+    "month_class_a_writes_used": 265,
     "month_class_b_ops_used": 0,
-    "estimated_storage_bytes": 8882056,
+    "estimated_storage_bytes": 10940778,
     "storage_budget_hit": false,
     "class_a_budget_hit": false,
     "class_b_budget_hit": false
   },
-  "no_logo": 10,
+  "no_logo": 11,
   "no_logo_targets": [
     {
       "company": "Amentum",
@@ -33,6 +33,11 @@
     },
     {
       "company": "Assort Health",
+      "domain": "jobs.ashbyhq.com",
+      "error": "LogoHunter returned empty payload."
+    },
+    {
+      "company": "Benchling",
       "domain": "jobs.ashbyhq.com",
       "error": "LogoHunter returned empty payload."
     },

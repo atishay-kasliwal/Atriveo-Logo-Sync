@@ -67,6 +67,17 @@
   },
   {
     "company": "Adobe",
+    "domain": "careers.adobe.com",
+    "object_key": "logos/adobe/careers.adobe.com/54213e56d564e817.svg",
+    "content_type": "image/svg+xml",
+    "sha256_hex": "54213e56d564e8174ec2de6aa5f91907aebadc38215f4c3597d1e9b83cce127a",
+    "byte_size": 1234,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:27:41.085747+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Adobe",
     "domain": "jobright.ai",
     "object_key": "logos/adobe/jobright.ai/a157d8c62fd0ba00.svg",
     "content_type": "image/svg+xml",
@@ -210,6 +221,17 @@
   },
   {
     "company": "Applied Materials",
+    "domain": "appliedmaterials.eightfold.ai",
+    "object_key": "logos/applied-materials/appliedmaterials.eightfold.ai/a806f39b01bde382.png",
+    "content_type": "image/png",
+    "sha256_hex": "a806f39b01bde38252597b9089e76abb6327e47f2b7b36cab4aff79387e6c2d5",
+    "byte_size": 66197,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:27:45.081710+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Applied Materials",
     "domain": "jobright.ai",
     "object_key": "logos/applied-materials/jobright.ai/a157d8c62fd0ba00.svg",
     "content_type": "image/svg+xml",
@@ -239,6 +261,17 @@
     "byte_size": 3133,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:23:39.608533+00:00",
+    "public_url": null
+  },
+  {
+    "company": "AQR",
+    "domain": "boards.greenhouse.io",
+    "object_key": "logos/aqr/boards.greenhouse.io/adba661d366fd9cb.png",
+    "content_type": "image/png",
+    "sha256_hex": "adba661d366fd9cbc63e83a0c63fa8522e5483f8b6cf032d738d2d3084b6fb9d",
+    "byte_size": 37718,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:27:49.318467+00:00",
     "public_url": null
   },
   {
@@ -451,6 +484,17 @@
     "public_url": null
   },
   {
+    "company": "Charles Schwab",
+    "domain": "career-schwab.icims.com",
+    "object_key": "logos/charles-schwab/career-schwab.icims.com/4153c6806d691465.svg",
+    "content_type": "image/svg+xml",
+    "sha256_hex": "4153c6806d691465a481b236917eedff6fc96a20c04dae90d69b983c6eabd03e",
+    "byte_size": 7412,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:27:54.625225+00:00",
+    "public_url": null
+  },
+  {
     "company": "Chewy",
     "domain": "careers.chewy.com",
     "object_key": "logos/chewy/careers.chewy.com/1878e62ee72ecec6.png",
@@ -539,6 +583,17 @@
     "public_url": null
   },
   {
+    "company": "Coherent Corp. US",
+    "domain": "hcwp.fa.us2.oraclecloud.com",
+    "object_key": "logos/coherent-corp.-us/hcwp.fa.us2.oraclecloud.com/7bfa2cec7f537717.png",
+    "content_type": "image/png",
+    "sha256_hex": "7bfa2cec7f5377177a05e667b618bd414ceb8e7dc922568bed654ef39e7e8685",
+    "byte_size": 51446,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:27:57.582096+00:00",
+    "public_url": null
+  },
+  {
     "company": "Cohesity",
     "domain": "cohesity.wd5.myworkdayjobs.com",
     "object_key": "logos/cohesity/cohesity.wd5.myworkdayjobs.com/cb633b58e7a63671.png",
@@ -558,6 +613,28 @@
     "byte_size": 49301,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:25:33.163863+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Color",
+    "domain": "jobs.lever.co",
+    "object_key": "logos/color/jobs.lever.co/6eca2621c548156c.png",
+    "content_type": "image/png",
+    "sha256_hex": "6eca2621c548156c56a275c7b3a5d9408291876b60275236e3e88e356304b4b9",
+    "byte_size": 90729,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:00.705487+00:00",
+    "public_url": null
+  },
+  {
+    "company": "COMPANY JOB / APP ID",
+    "domain": "careers.chewy.com",
+    "object_key": "logos/company-job-app-id/careers.chewy.com/1878e62ee72ecec6.png",
+    "content_type": "image/png",
+    "sha256_hex": "1878e62ee72ecec61939cb7ec1117f0bad984a507ad9c5c8d291d4df5a37b901",
+    "byte_size": 72249,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:03.478712+00:00",
     "public_url": null
   },
   {
@@ -748,6 +825,17 @@
     "public_url": null
   },
   {
+    "company": "Engineering Finance and Accounting General Management Human Resources Information Technology Internships & Apprenticeships Sales and Marketing Operations Supply Chain View All Jobs",
+    "domain": "jobs.ametek.com",
+    "object_key": "logos/engineering-finance-and-accounting-general-management-human-resources-information-technology-internships-apprenticeships-sales-and-marketing-operations-supply-chain-view-all-jobs/jobs.ametek.com/c106d76f1f83e910.png",
+    "content_type": "image/png",
+    "sha256_hex": "c106d76f1f83e910737f27c974c6c58c09ff783e0e387ac6effeb862be9b8e0c",
+    "byte_size": 33705,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:05.328527+00:00",
+    "public_url": null
+  },
+  {
     "company": "Ensemble Health Partners",
     "domain": "jobright.ai",
     "object_key": "logos/ensemble-health-partners/jobright.ai/a157d8c62fd0ba00.svg",
@@ -811,6 +899,17 @@
     "byte_size": 3133,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:26:34.345649+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Fortune",
+    "domain": "fortune.wd108.myworkdayjobs.com",
+    "object_key": "logos/fortune/fortune.wd108.myworkdayjobs.com/cb633b58e7a63671.png",
+    "content_type": "image/png",
+    "sha256_hex": "cb633b58e7a636716d0ee1aed5693989c32c9138f4584ac7f6bc6f79625ff8f9",
+    "byte_size": 253505,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:07.854616+00:00",
     "public_url": null
   },
   {
@@ -891,6 +990,17 @@
     "public_url": null
   },
   {
+    "company": "Globalhr",
+    "domain": "globalhr.wd5.myworkdayjobs.com",
+    "object_key": "logos/globalhr/globalhr.wd5.myworkdayjobs.com/cb633b58e7a63671.png",
+    "content_type": "image/png",
+    "sha256_hex": "cb633b58e7a636716d0ee1aed5693989c32c9138f4584ac7f6bc6f79625ff8f9",
+    "byte_size": 253505,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:11.257436+00:00",
+    "public_url": null
+  },
+  {
     "company": "Goliath Partners",
     "domain": "linkedin.com",
     "object_key": "logos/goliath-partners/linkedin.com/eaad696915e2a5c1.png",
@@ -946,6 +1056,17 @@
     "public_url": null
   },
   {
+    "company": "Harriscomputer",
+    "domain": "harriscomputer.wd3.myworkdayjobs.com",
+    "object_key": "logos/harriscomputer/harriscomputer.wd3.myworkdayjobs.com/cb633b58e7a63671.png",
+    "content_type": "image/png",
+    "sha256_hex": "cb633b58e7a636716d0ee1aed5693989c32c9138f4584ac7f6bc6f79625ff8f9",
+    "byte_size": 253505,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:14.195375+00:00",
+    "public_url": null
+  },
+  {
     "company": "Hatzel & Buehler, Inc",
     "domain": "linkedin.com",
     "object_key": "logos/hatzel-buehler-inc/linkedin.com/eaad696915e2a5c1.png",
@@ -990,6 +1111,17 @@
     "public_url": null
   },
   {
+    "company": "Hertz",
+    "domain": "fa-evlf-saasfaprod1.fa.ocs.oraclecloud.com",
+    "object_key": "logos/hertz/fa-evlf-saasfaprod1.fa.ocs.oraclecloud.com/7bfa2cec7f537717.png",
+    "content_type": "image/png",
+    "sha256_hex": "7bfa2cec7f5377177a05e667b618bd414ceb8e7dc922568bed654ef39e7e8685",
+    "byte_size": 51446,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:16.851040+00:00",
+    "public_url": null
+  },
+  {
     "company": "Housecall Pro",
     "domain": "boards.greenhouse.io",
     "object_key": "logos/housecall-pro/boards.greenhouse.io/adba661d366fd9cb.png",
@@ -998,6 +1130,17 @@
     "byte_size": 37718,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:27:15.317338+00:00",
+    "public_url": null
+  },
+  {
+    "company": "HPE",
+    "domain": "careers.hpe.com",
+    "object_key": "logos/hpe/careers.hpe.com/8851740941dc8513.png",
+    "content_type": "image/png",
+    "sha256_hex": "8851740941dc85135df1aa42a72b3568939012a7fc0c8289d37b1a60c36452a0",
+    "byte_size": 4941,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:20.294086+00:00",
     "public_url": null
   },
   {
@@ -1053,6 +1196,17 @@
     "byte_size": 51446,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:27:26.303719+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Kcura",
+    "domain": "kcura.wd1.myworkdayjobs.com",
+    "object_key": "logos/kcura/kcura.wd1.myworkdayjobs.com/cb633b58e7a63671.png",
+    "content_type": "image/png",
+    "sha256_hex": "cb633b58e7a636716d0ee1aed5693989c32c9138f4584ac7f6bc6f79625ff8f9",
+    "byte_size": 253505,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:21.746099+00:00",
     "public_url": null
   },
   {
@@ -1188,6 +1342,17 @@
     "public_url": null
   },
   {
+    "company": "Man Group",
+    "domain": "boards.greenhouse.io",
+    "object_key": "logos/man-group/boards.greenhouse.io/adba661d366fd9cb.png",
+    "content_type": "image/png",
+    "sha256_hex": "adba661d366fd9cbc63e83a0c63fa8522e5483f8b6cf032d738d2d3084b6fb9d",
+    "byte_size": 37718,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:23.468053+00:00",
+    "public_url": null
+  },
+  {
     "company": "Mark Anthony Group Inc.",
     "domain": "recruiting2.ultipro.com",
     "object_key": "logos/mark-anthony-group-inc./recruiting2.ultipro.com/7f79ada7eea23b64.png",
@@ -1218,6 +1383,17 @@
     "byte_size": 49181,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:27:53.307753+00:00",
+    "public_url": null
+  },
+  {
+    "company": "MCA Connect",
+    "domain": "jobs.lever.co",
+    "object_key": "logos/mca-connect/jobs.lever.co/6eca2621c548156c.png",
+    "content_type": "image/png",
+    "sha256_hex": "6eca2621c548156c56a275c7b3a5d9408291876b60275236e3e88e356304b4b9",
+    "byte_size": 90729,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:24.343158+00:00",
     "public_url": null
   },
   {
@@ -1298,6 +1474,17 @@
     "public_url": null
   },
   {
+    "company": "Morningstar",
+    "domain": "careers.morningstar.com",
+    "object_key": "logos/morningstar/careers.morningstar.com/41122ff31c43d6c2.png",
+    "content_type": "image/png",
+    "sha256_hex": "41122ff31c43d6c229bc6e1e6f8f421db70c20848ec76885204682425e5d9389",
+    "byte_size": 21593,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:33.882039+00:00",
+    "public_url": null
+  },
+  {
     "company": "MSG Entertainment Holdings, LLC",
     "domain": "boards.greenhouse.io",
     "object_key": "logos/msg-entertainment-holdings-llc/boards.greenhouse.io/adba661d366fd9cb.png",
@@ -1309,6 +1496,17 @@
     "public_url": null
   },
   {
+    "company": "Neuralink",
+    "domain": "linkedin.com",
+    "object_key": "logos/neuralink/linkedin.com/eaad696915e2a5c1.png",
+    "content_type": "image/png",
+    "sha256_hex": "eaad696915e2a5c1a1c40118690c70fb6eb0877ee7c5d2ac6e3ee68cd30b0977",
+    "byte_size": 44537,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:35.843973+00:00",
+    "public_url": null
+  },
+  {
     "company": "New Resources Consulting",
     "domain": "linkedin.com",
     "object_key": "logos/new-resources-consulting/linkedin.com/eaad696915e2a5c1.png",
@@ -1317,6 +1515,17 @@
     "byte_size": 44537,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:28:12.468635+00:00",
+    "public_url": null
+  },
+  {
+    "company": "New York Life",
+    "domain": "careers.newyorklife.com",
+    "object_key": "logos/new-york-life/careers.newyorklife.com/2f2080b246328763.png",
+    "content_type": "image/png",
+    "sha256_hex": "2f2080b24632876349c47c136ab5213ee71d7857a015bb7e6a34bf56e9861b60",
+    "byte_size": 103105,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:38.824695+00:00",
     "public_url": null
   },
   {
@@ -1416,6 +1625,28 @@
     "byte_size": 253505,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:28:31.212021+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Nyla Technology Solutions",
+    "domain": "nyla-jobs.services.agileonboarding.com",
+    "object_key": "logos/nyla-technology-solutions/nyla-jobs.services.agileonboarding.com/fe2fd06c990d209e.png",
+    "content_type": "image/png",
+    "sha256_hex": "fe2fd06c990d209eeadd25389f2393af6e6c97d97f29fc906c0d6d68e09d9fbb",
+    "byte_size": 31743,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:40.423096+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Oklo",
+    "domain": "boards.greenhouse.io",
+    "object_key": "logos/oklo/boards.greenhouse.io/adba661d366fd9cb.png",
+    "content_type": "image/png",
+    "sha256_hex": "adba661d366fd9cbc63e83a0c63fa8522e5483f8b6cf032d738d2d3084b6fb9d",
+    "byte_size": 37718,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:42.041028+00:00",
     "public_url": null
   },
   {
@@ -1617,6 +1848,17 @@
     "public_url": null
   },
   {
+    "company": "Plaid logo",
+    "domain": "jobs.lever.co",
+    "object_key": "logos/plaid-logo/jobs.lever.co/6eca2621c548156c.png",
+    "content_type": "image/png",
+    "sha256_hex": "6eca2621c548156c56a275c7b3a5d9408291876b60275236e3e88e356304b4b9",
+    "byte_size": 90729,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:43.010118+00:00",
+    "public_url": null
+  },
+  {
     "company": "PlayStation Global",
     "domain": "boards.greenhouse.io",
     "object_key": "logos/playstation-global/boards.greenhouse.io/adba661d366fd9cb.png",
@@ -1768,6 +2010,17 @@
     "byte_size": 44537,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:29:30.949605+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Roblox",
+    "domain": "boards.greenhouse.io",
+    "object_key": "logos/roblox/boards.greenhouse.io/adba661d366fd9cb.png",
+    "content_type": "image/png",
+    "sha256_hex": "adba661d366fd9cbc63e83a0c63fa8522e5483f8b6cf032d738d2d3084b6fb9d",
+    "byte_size": 37718,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:45.864529+00:00",
     "public_url": null
   },
   {
@@ -2076,6 +2329,17 @@
     "byte_size": 3133,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:30:35.599455+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Sonova",
+    "domain": "jobs.sonova.com",
+    "object_key": "logos/sonova/jobs.sonova.com/224a43234515407f.png",
+    "content_type": "image/png",
+    "sha256_hex": "224a43234515407fd4f2d96a3f59cdfae3bc4edfa2d5295b6d07b153717df8f1",
+    "byte_size": 132035,
+    "source": "logohunter",
+    "synced_at": "2026-03-14T05:28:51.343353+00:00",
     "public_url": null
   },
   {

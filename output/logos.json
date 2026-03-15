@@ -176,6 +176,17 @@
     "public_url": null
   },
   {
+    "company": "Amazon Development Center U.S., Inc.",
+    "domain": "amazon.jobs",
+    "object_key": "logos/amazon-development-center-u.s.-inc./amazon.jobs/f90b4d1c973e1f0a.png",
+    "content_type": "image/png",
+    "sha256_hex": "f90b4d1c973e1f0ae813a45a4bdb7cec6975d8b9fb9848d1ca1e076fc832da21",
+    "byte_size": 85973,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:47:50.390449+00:00",
+    "public_url": null
+  },
+  {
     "company": "American Electric Power",
     "domain": "jobright.ai",
     "object_key": "logos/american-electric-power/jobright.ai/a157d8c62fd0ba00.svg",
@@ -462,6 +473,17 @@
     "public_url": null
   },
   {
+    "company": "Carvana, LLC",
+    "domain": "carvana.com",
+    "object_key": "logos/carvana-llc/carvana.com/f13138750760c00a.png",
+    "content_type": "image/png",
+    "sha256_hex": "f13138750760c00a455b3d505af52f630c3c3ab1473bdc305795666dcd128dbf",
+    "byte_size": 92317,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:48:02.865094+00:00",
+    "public_url": null
+  },
+  {
     "company": "Centene Corporation",
     "domain": "jobright.ai",
     "object_key": "logos/centene-corporation/jobright.ai/a157d8c62fd0ba00.svg",
@@ -495,6 +517,17 @@
     "public_url": null
   },
   {
+    "company": "Check",
+    "domain": "boards.greenhouse.io",
+    "object_key": "logos/check/boards.greenhouse.io/adba661d366fd9cb.png",
+    "content_type": "image/png",
+    "sha256_hex": "adba661d366fd9cbc63e83a0c63fa8522e5483f8b6cf032d738d2d3084b6fb9d",
+    "byte_size": 37718,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:48:07.110779+00:00",
+    "public_url": null
+  },
+  {
     "company": "Chewy",
     "domain": "careers.chewy.com",
     "object_key": "logos/chewy/careers.chewy.com/1878e62ee72ecec6.png",
@@ -514,6 +547,17 @@
     "byte_size": 3133,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:25:11.125469+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Cigna",
+    "domain": "cigna.wd5.myworkdayjobs.com",
+    "object_key": "logos/cigna/cigna.wd5.myworkdayjobs.com/cb633b58e7a63671.png",
+    "content_type": "image/png",
+    "sha256_hex": "cb633b58e7a636716d0ee1aed5693989c32c9138f4584ac7f6bc6f79625ff8f9",
+    "byte_size": 253505,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:48:10.048811+00:00",
     "public_url": null
   },
   {
@@ -858,6 +902,17 @@
     "public_url": null
   },
   {
+    "company": "Everpure",
+    "domain": "boards.greenhouse.io",
+    "object_key": "logos/everpure/boards.greenhouse.io/adba661d366fd9cb.png",
+    "content_type": "image/png",
+    "sha256_hex": "adba661d366fd9cbc63e83a0c63fa8522e5483f8b6cf032d738d2d3084b6fb9d",
+    "byte_size": 37718,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:48:12.100900+00:00",
+    "public_url": null
+  },
+  {
     "company": "F5",
     "domain": "ffive.wd5.myworkdayjobs.com",
     "object_key": "logos/f5/ffive.wd5.myworkdayjobs.com/cb633b58e7a63671.png",
@@ -921,6 +976,17 @@
     "byte_size": 253505,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:26:38.198629+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Freeform",
+    "domain": "boards.greenhouse.io",
+    "object_key": "logos/freeform/boards.greenhouse.io/adba661d366fd9cb.png",
+    "content_type": "image/png",
+    "sha256_hex": "adba661d366fd9cbc63e83a0c63fa8522e5483f8b6cf032d738d2d3084b6fb9d",
+    "byte_size": 37718,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:48:20.435345+00:00",
     "public_url": null
   },
   {
@@ -1001,6 +1067,17 @@
     "public_url": null
   },
   {
+    "company": "Goldman Sachs",
+    "domain": "hdpc.fa.us2.oraclecloud.com",
+    "object_key": "logos/goldman-sachs/hdpc.fa.us2.oraclecloud.com/7bfa2cec7f537717.png",
+    "content_type": "image/png",
+    "sha256_hex": "7bfa2cec7f5377177a05e667b618bd414ceb8e7dc922568bed654ef39e7e8685",
+    "byte_size": 51446,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:48:22.626854+00:00",
+    "public_url": null
+  },
+  {
     "company": "Goliath Partners",
     "domain": "linkedin.com",
     "object_key": "logos/goliath-partners/linkedin.com/eaad696915e2a5c1.png",
@@ -1031,6 +1108,17 @@
     "byte_size": 3133,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:26:55.887554+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Greptile",
+    "domain": "greptile.com",
+    "object_key": "logos/greptile/greptile.com/ff6bdd9b05b84640.svg",
+    "content_type": "image/svg+xml",
+    "sha256_hex": "ff6bdd9b05b84640712fc3ed55c2abb9ae36f9884097933e3a26688a45376e88",
+    "byte_size": 4591,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:48:27.673140+00:00",
     "public_url": null
   },
   {
@@ -1133,6 +1221,17 @@
     "public_url": null
   },
   {
+    "company": "Hover",
+    "domain": "boards.greenhouse.io",
+    "object_key": "logos/hover/boards.greenhouse.io/adba661d366fd9cb.png",
+    "content_type": "image/png",
+    "sha256_hex": "adba661d366fd9cbc63e83a0c63fa8522e5483f8b6cf032d738d2d3084b6fb9d",
+    "byte_size": 37718,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:48:29.616781+00:00",
+    "public_url": null
+  },
+  {
     "company": "HPE",
     "domain": "careers.hpe.com",
     "object_key": "logos/hpe/careers.hpe.com/8851740941dc8513.png",
@@ -1155,6 +1254,17 @@
     "public_url": null
   },
   {
+    "company": "Imricor Medical Systems Inc",
+    "domain": "recruiting.paylocity.com",
+    "object_key": "logos/imricor-medical-systems-inc/recruiting.paylocity.com/c75a9e5e2ced7630.png",
+    "content_type": "image/png",
+    "sha256_hex": "c75a9e5e2ced763073417b8a75bbadff9edfdcbd12c29c6fb7ea5880012d37ca",
+    "byte_size": 206744,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:48:30.950020+00:00",
+    "public_url": null
+  },
+  {
     "company": "Invenergyllc",
     "domain": "invenergyllc.wd1.myworkdayjobs.com",
     "object_key": "logos/invenergyllc/invenergyllc.wd1.myworkdayjobs.com/cb633b58e7a63671.png",
@@ -1163,6 +1273,17 @@
     "byte_size": 253505,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:27:21.298747+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Invisible Technologies",
+    "domain": "job-boards.eu.greenhouse.io",
+    "object_key": "logos/invisible-technologies/job-boards.eu.greenhouse.io/adba661d366fd9cb.png",
+    "content_type": "image/png",
+    "sha256_hex": "adba661d366fd9cbc63e83a0c63fa8522e5483f8b6cf032d738d2d3084b6fb9d",
+    "byte_size": 37718,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:48:35.756206+00:00",
     "public_url": null
   },
   {
@@ -1185,6 +1306,17 @@
     "byte_size": 3133,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:27:24.885059+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Jobs",
+    "domain": "jobs.lever.co",
+    "object_key": "logos/jobs/jobs.lever.co/6eca2621c548156c.png",
+    "content_type": "image/png",
+    "sha256_hex": "6eca2621c548156c56a275c7b3a5d9408291876b60275236e3e88e356304b4b9",
+    "byte_size": 90729,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:48:50.051564+00:00",
     "public_url": null
   },
   {
@@ -1320,6 +1452,17 @@
     "public_url": null
   },
   {
+    "company": "Loop",
+    "domain": "boards.greenhouse.io",
+    "object_key": "logos/loop/boards.greenhouse.io/adba661d366fd9cb.png",
+    "content_type": "image/png",
+    "sha256_hex": "adba661d366fd9cbc63e83a0c63fa8522e5483f8b6cf032d738d2d3084b6fb9d",
+    "byte_size": 37718,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:48:52.011880+00:00",
+    "public_url": null
+  },
+  {
     "company": "Lyft",
     "domain": "boards.greenhouse.io",
     "object_key": "logos/lyft/boards.greenhouse.io/adba661d366fd9cb.png",
@@ -1394,6 +1537,17 @@
     "byte_size": 90729,
     "source": "logohunter",
     "synced_at": "2026-03-14T05:28:24.343158+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Medpace, Inc.",
+    "domain": "careers.medpace.com",
+    "object_key": "logos/medpace-inc./careers.medpace.com/e97cdca259e2b056.svg",
+    "content_type": "image/svg+xml",
+    "sha256_hex": "e97cdca259e2b056a3e9c5993246ea0d5887955dd13a3594fddaacc6695eb2c9",
+    "byte_size": 3080,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:49:09.830352+00:00",
     "public_url": null
   },
   {
@@ -1548,6 +1702,17 @@
     "byte_size": 51446,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:28:18.749235+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Nokia Corporation",
+    "domain": "fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com",
+    "object_key": "logos/nokia-corporation/fa-evmr-saasfaprod1.fa.ocs.oraclecloud.com/7bfa2cec7f537717.png",
+    "content_type": "image/png",
+    "sha256_hex": "7bfa2cec7f5377177a05e667b618bd414ceb8e7dc922568bed654ef39e7e8685",
+    "byte_size": 51446,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:49:18.839328+00:00",
     "public_url": null
   },
   {
@@ -1804,6 +1969,17 @@
     "public_url": null
   },
   {
+    "company": "Paypal",
+    "domain": "paypal.eightfold.ai",
+    "object_key": "logos/paypal/paypal.eightfold.ai/9fad709294275960.png",
+    "content_type": "image/png",
+    "sha256_hex": "9fad709294275960842f7a015aa51d6beb2d032291a7c71f5c2cd3b30d11717e",
+    "byte_size": 91950,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:49:22.039251+00:00",
+    "public_url": null
+  },
+  {
     "company": "Penske Media Corporation",
     "domain": "jobright.ai",
     "object_key": "logos/penske-media-corporation/jobright.ai/a157d8c62fd0ba00.svg",
@@ -1900,6 +2076,28 @@
     "byte_size": 44537,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:29:10.874471+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Proudly designed, assembled, and supported in the USA",
+    "domain": "skydio.com",
+    "object_key": "logos/proudly-designed-assembled-and-supported-in-the-usa/skydio.com/a576679f659afba5.png",
+    "content_type": "image/png",
+    "sha256_hex": "a576679f659afba522d1f73dc3887d5cf1f69a6bbb451f921b4e415d9ebb603f",
+    "byte_size": 15965,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:49:57.664460+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Prudential",
+    "domain": "pru.wd5.myworkdayjobs.com",
+    "object_key": "logos/prudential/pru.wd5.myworkdayjobs.com/cb633b58e7a63671.png",
+    "content_type": "image/png",
+    "sha256_hex": "cb633b58e7a636716d0ee1aed5693989c32c9138f4584ac7f6bc6f79625ff8f9",
+    "byte_size": 253505,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:50:01.328111+00:00",
     "public_url": null
   },
   {
@@ -2189,6 +2387,17 @@
     "public_url": null
   },
   {
+    "company": "Silabs",
+    "domain": "silabs.wd1.myworkdayjobs.com",
+    "object_key": "logos/silabs/silabs.wd1.myworkdayjobs.com/cb633b58e7a63671.png",
+    "content_type": "image/png",
+    "sha256_hex": "cb633b58e7a636716d0ee1aed5693989c32c9138f4584ac7f6bc6f79625ff8f9",
+    "byte_size": 253505,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:50:09.076745+00:00",
+    "public_url": null
+  },
+  {
     "company": "Sim - Y Combinator",
     "domain": "workatastartup.com",
     "object_key": "logos/sim---y-combinator/workatastartup.com/aad3de3958ea7d05.png",
@@ -2475,6 +2684,17 @@
     "public_url": null
   },
   {
+    "company": "SynergisticIT",
+    "domain": "linkedin.com",
+    "object_key": "logos/synergisticit/linkedin.com/eaad696915e2a5c1.png",
+    "content_type": "image/png",
+    "sha256_hex": "eaad696915e2a5c1a1c40118690c70fb6eb0877ee7c5d2ac6e3ee68cd30b0977",
+    "byte_size": 44537,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:50:14.227281+00:00",
+    "public_url": null
+  },
+  {
     "company": "TBD",
     "domain": "linkedin.com",
     "object_key": "logos/tbd/linkedin.com/eaad696915e2a5c1.png",
@@ -2541,6 +2761,17 @@
     "public_url": null
   },
   {
+    "company": "Thumbtack",
+    "domain": "boards.greenhouse.io",
+    "object_key": "logos/thumbtack/boards.greenhouse.io/adba661d366fd9cb.png",
+    "content_type": "image/png",
+    "sha256_hex": "adba661d366fd9cbc63e83a0c63fa8522e5483f8b6cf032d738d2d3084b6fb9d",
+    "byte_size": 37718,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:50:16.602333+00:00",
+    "public_url": null
+  },
+  {
     "company": "TikTok",
     "domain": "jobright.ai",
     "object_key": "logos/tiktok/jobright.ai/a157d8c62fd0ba00.svg",
@@ -2563,6 +2794,17 @@
     "public_url": null
   },
   {
+    "company": "Together AI",
+    "domain": "boards.greenhouse.io",
+    "object_key": "logos/together-ai/boards.greenhouse.io/adba661d366fd9cb.png",
+    "content_type": "image/png",
+    "sha256_hex": "adba661d366fd9cbc63e83a0c63fa8522e5483f8b6cf032d738d2d3084b6fb9d",
+    "byte_size": 37718,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:50:18.657076+00:00",
+    "public_url": null
+  },
+  {
     "company": "Tower Research Capital",
     "domain": "jobright.ai",
     "object_key": "logos/tower-research-capital/jobright.ai/a157d8c62fd0ba00.svg",
@@ -2582,6 +2824,17 @@
     "byte_size": 3133,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:31:35.602246+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Trimble",
+    "domain": "trimble.eightfold.ai",
+    "object_key": "logos/trimble/trimble.eightfold.ai/1f6d4a3016f10e5a.png",
+    "content_type": "image/png",
+    "sha256_hex": "1f6d4a3016f10e5afd83aabd9ce3b4eb9d5bbc0e61ddf920e241a49523f6018b",
+    "byte_size": 94644,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:50:21.495287+00:00",
     "public_url": null
   },
   {
@@ -2890,6 +3143,28 @@
     "byte_size": 3133,
     "source": "logohunter",
     "synced_at": "2026-03-13T05:32:40.170575+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Yaskawa Motoman Robotics",
+    "domain": "recruiting.ultipro.com",
+    "object_key": "logos/yaskawa-motoman-robotics/recruiting.ultipro.com/7f79ada7eea23b64.png",
+    "content_type": "image/png",
+    "sha256_hex": "7f79ada7eea23b6460f3fb008c31689ffdc0afb0fad3f13b7a54083ddfe522d2",
+    "byte_size": 99765,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:50:25.945087+00:00",
+    "public_url": null
+  },
+  {
+    "company": "Zebra Technologies",
+    "domain": "zebra.eightfold.ai",
+    "object_key": "logos/zebra-technologies/zebra.eightfold.ai/75e7068e84ff29df.png",
+    "content_type": "image/png",
+    "sha256_hex": "75e7068e84ff29dfa634ff0bb93f9af2f3eee0c846e38e1ac0916183bc43dcc4",
+    "byte_size": 169269,
+    "source": "logohunter",
+    "synced_at": "2026-03-15T05:50:29.136525+00:00",
     "public_url": null
   },
   {
